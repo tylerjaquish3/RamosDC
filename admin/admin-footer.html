@@ -1,0 +1,60 @@
+    
+    </div>
+    
+    <footer class="Footer bg-dark dker">
+      <p>2016 &copy; Ramos DC | Kennewick Chiropractor</p>
+    </footer>
+    <!-- /#footer -->
+    
+    <!--jQuery -->
+    <script src="assets/lib/jquery/jquery.js"></script>
+
+    <!--Bootstrap -->
+    <script src="assets/lib/bootstrap/js/bootstrap.js"></script>
+    <!-- MetisMenu -->
+    <script src="assets/lib/metismenu/metisMenu.js"></script>
+    <!-- Screenfull -->
+    <script src="assets/lib/screenfull/screenfull.js"></script>
+    <!-- CKEditor -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.5.10/ckeditor.js"></script>
+    <script src="//code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    
+    <!-- Metis core scripts -->
+    <script src="assets/js/core.js"></script>
+    <!-- Metis demo scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <script type="text/javascript">
+      $(function(){
+
+        $('#menu-toggle').on('click',function() {  
+
+          var effect = 'slide';
+          var options = { direction: 'left' };
+          var duration = 500;
+          
+          $('#left-menu').toggle(effect, options, duration);
+          $('#left').toggle(effect, options, duration);
+          $('#content').toggleClass("full-width");
+
+          if($(document).width() < 768) {
+            $('#left').toggleClass("show-nav");
+          }
+          
+        });
+      })
+
+      function toggleContent($id)
+      {
+        $($id).toggle("slow", function() {});
+      }
+
+      $(document).ready(function(){
+        $('#usersTable').DataTable();
+      });
+    </script>
+
+  </body>
+
+</html>

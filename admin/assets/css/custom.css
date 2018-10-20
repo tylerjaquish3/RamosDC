@@ -1,0 +1,63 @@
+.same-line {
+    display: inline-block;
+}
+
+.same-line img {
+	width: 40px;
+}
+
+.statsTable {
+	text-align: center;
+	border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.statsTable tr td, th {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.statsTable caption {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.definitions ul {
+    list-style: none;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .mobile-hide, .user-media, .hourlyVisits  {
+        display: none;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    #top .topnav {
+        margin: 0;
+        float: right;
+    }
+
+    #left {
+        position: fixed;
+        float: left;
+        top: 64px;
+    }
+
+    .navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+        margin-top: 0px;
+        margin-left: 60px;
+    }
+
+    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover {
+        width: 214px;
+    }
+
+}
