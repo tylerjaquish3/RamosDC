@@ -77,9 +77,9 @@ function escape($str)
 function rand_str($length = 8, $chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890') 
 {
 	$chars_length = (strlen($chars) - 1); // Length of character list
-	$string = $chars{rand(0, $chars_length)}; // Start our string
+	$string = $chars[rand(0, $chars_length)]; // Start our string
 	for ($i = 1; $i < $length; $i = strlen($string)) { // Generate random string
-		$r = $chars{rand(0, $chars_length)}; // Grab a random character from our list
+		$r = $chars[rand(0, $chars_length)]; // Grab a random character from our list
 		$string .=  $r; // Make sure the same two characters don’t appear next to each other
 	}
 

@@ -65,11 +65,11 @@
 <?php include 'admin/config/functions.php'; ?>
 
 	<!-- Preloader -->
-	<div id="tt-preloader">
+	<!-- <div id="tt-preloader">
 		<div id="pre-status">
 			<div class="preload-placeholder"></div>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- Navigation -->
 	<header class="header">
@@ -83,7 +83,7 @@
 
         <div class="col-xs-6">
           <div id="call" class="direct-contact">
-            <a class="btn btn-info" id="call-now" data-rel="external" href="tel:509-840-0406"><i class="fa fa-phone"></i> 509.840.0406</a>
+            <a class="btn btn-info" id="call-now" data-rel="external" href="tel:509-222-1112"><i class="fa fa-phone"></i> 509.222.1112</a>
           </div>
         </div>
         <div class="col-xs-3">
@@ -141,7 +141,7 @@
             <a href="https://www.google.com/#safe=active&q=ramos+dc+kennewick&lrd=0x549879ebc0ffe447:0xe4f5de6c26ec9194,1," class="google"><i class="fa fa-google social-media"></i></a>
           </div>
           <div id="call" class="direct-contact">
-            <a class="btn btn-info" id="call-now" data-rel="external" href="tel:509-840-0406"><i class="fa fa-phone"></i> 509.840.0406</a>
+            <a class="btn btn-info" id="call-now" data-rel="external" href="tel:509-222-1112"><i class="fa fa-phone"></i> 509.222.1112</a>
           </div>
         </div>
       </div>
@@ -473,7 +473,7 @@
                 <i class="fa fa-map-marker"></i>
                 <address>
                   <strong>Address/Street</strong>
-                  7131 W. Deschutes Ave. Ste. 102<br>
+                  5373 W Canal Dr Ste 110<br>
                   Kennewick, WA 99336<br>
                 </address>
               </div>
@@ -482,7 +482,7 @@
                 <i class="fa fa-mobile"></i>
                 <div class="contact-number">
                   <strong>Phone/Email</strong>
-                  509.840.0406<br>
+                  509.222.1112<br>
                   info@ramosdc.com
                 </div>
               </div>
@@ -517,11 +517,8 @@
           </div>
         </div>
 
-        
-
-      </div><!-- /.container -->
+      </div>
     </section><!-- End Contact Section -->
-
 
 	<!-- Footer Section -->
     <footer class="footer-wrapper">

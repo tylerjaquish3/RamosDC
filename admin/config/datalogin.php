@@ -8,7 +8,7 @@
 	//local connection
 	$servername = "localhost";
 	$username = "root";
-	$password = "boboth1";
+	$password = "";
 	$dbname = "ramos";
 	
 	// Create connection

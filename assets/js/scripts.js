@@ -260,7 +260,7 @@ jQuery(function ($) {
     // -------------------------------------------------------------
 
     (function () {
-        var myLatlng = new google.maps.LatLng(46.2119722, -119.2199823);
+        var myLatlng = new google.maps.LatLng(46.222850, -119.193590);
 
             var styles = [
                 {
@@ -310,7 +310,7 @@ jQuery(function ($) {
             });
 
             var contentString = '<strong>Ramos Spine & Sports Therapy</strong>' +
-                    '7131 W. Deschutes Ave. Ste. 102<br>' +
+                    '5373 W. Canal Dr. Ste 110<br>' +
                     'Kennewick, WA 99336';
 
             var infowindow = new google.maps.InfoWindow({
